@@ -5,47 +5,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <!--google font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet"> 
+
   <title>Frontend Mentor | Calculator app</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <link rel="stylesheet" href="./design/style.css">
 </head>
 <body>
+
+<div class="gridContainer">
+  
+  <div class="column1"></div>
+
   <div class="calculator-grid">
 
-      <div class="calcAndTheme">
-          <h5>calc</h5>
-          <h6>1 2 3</h6>
-          <button>Theme</button>
-      </div>
+    <div class="calcAndTheme">
+        <h5>calc</h5>
+        <h6>1 2 3</h6>
+        <button>Theme</button>
+    </div>
 
-      <div class="output">
-          399,981
-      </div>
+    <div class="output">
+        399,981
+    </div>
 
-      <div class="keys">
-          <button class="button">7</button>
-          <button class="button">8</button>
-          <button class="button">9</button>
-          <button id="del" class="button">DEL</button>
-          <button class="button">4</button>
-          <button class="button">5</button>
-          <button class="button">6</button>
-          <button class="button">+</button>
-          <button class="button">1</button>
-          <button class="button">2</button>
-          <button class="button">3</button>
-          <button class="button">-</button>
-          <button class="button">.</button>
-          <button class="button">0</button>
-          <button class="button">/</button>
-          <button class="button">x</button>
-          <button id="reset" class="button">RESET</button>
-          <button id="equals" class="button">=</button>
-      </div>
+    <div class="keys">
+        <button class="button">7</button>
+        <button class="button">8</button>
+        <button class="button">9</button>
+        <button id="del" class="button">DEL</button>
+        <button class="button">4</button>
+        <button class="button">5</button>
+        <button class="button">6</button>
+        <button class="button">+</button>
+        <button class="button">1</button>
+        <button class="button">2</button>
+        <button class="button">3</button>
+        <button class="button">-</button>
+        <button class="button">.</button>
+        <button class="button">0</button>
+        <button class="button">/</button>
+        <button class="button">x</button>
+        <button id="reset" class="">RESET</button>
+        <button id="equals" class="">=</button>
+    </div>
 
   </div> <!--end of calculator grid-->
+
+  <div class="column3"></div>
+
+</div><!--end of gridContainer-->
+
+
 
 
 
