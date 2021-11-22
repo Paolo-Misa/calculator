@@ -17,57 +17,61 @@
 </head>
 <body>
 
-<div class="gridContainer">
+<!-- <div class="gridContainer"> -->
   
-  <div class="column1"></div>
+  <!-- <div class="column1"></div> -->
 
   <div class="calculator-grid">
 
-    <div class="calcAndTheme">
+    <!-- <div class="calcAndTheme">
         <h5>calc</h5>
-        <h6>1 2 3</h6>
+        <h6></h6>
         <button>Theme</button>
-    </div>
+    </div> -->
 
     <div class="output">
-        399,981
+      <div data-previous-operand class="previous-operand"></div>
+      <div data-current-operand class="current-operand"></div>
     </div>
+        
 
-    <div class="keys">
-        <button class="button">7</button>
-        <button class="button">8</button>
-        <button class="button">9</button>
-        <button id="del" class="button">DEL</button>
-        <button class="button">4</button>
-        <button class="button">5</button>
-        <button class="button">6</button>
-        <button class="button">+</button>
-        <button class="button">1</button>
-        <button class="button">2</button>
-        <button class="button">3</button>
-        <button class="button">-</button>
-        <button class="button">.</button>
-        <button class="button">0</button>
-        <button class="button">/</button>
-        <button class="button">x</button>
-        <button id="reset" class="">RESET</button>
-        <button id="equals" class="">=</button>
-    </div>
+    
+        <button data-number class="button">7</button>
+        <button data-number class="button">8</button>
+        <button data-number class="button">9</button>
+        <button data-delete id="del" class="button">DEL</button>
+        <button data-number class="button">4</button>
+        <button data-number class="button">5</button>
+        <button data-number class="button">6</button>
+        <button data-operation class="button">+</button>
+        <button data-number class="button">1</button>
+        <button data-number class="button">2</button>
+        <button data-number class="button">3</button>
+        <button data-operation class="button">-</button>
+        <button data-number class="button">.</button>
+        <button data-number class="button">0</button>
+        <button data-operation class="button">/</button>
+        <button data-operation class="button">x</button>
+        <button data-reset id="reset" class="">RESET</button>
+        <button data-equals id="equals" class="">=</button>
+    
 
-  </div> <!--end of calculator grid-->
+   </div><!-- end of calculator grid -->
 
-  <div class="column3"></div>
+  <!-- <div class="column3"></div> -->
 
-</div><!--end of gridContainer-->
-
-
-
+<!-- </div>end of gridContainer -->
 
 
-  
+
+
+
+<!--   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Paolo Misa</a>.
-  </div>
+  </div> -->
+
+  <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
